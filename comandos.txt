@@ -1,0 +1,17 @@
+npm install -g json-server
+
+json-server --watch db.json
+
+
+- Comando para criar um service
+- Instalar o pacote para executar o comando a abaixo
+npm install @schematics/angular@7.0.7 --save-dev
+
+ng g s shared/components/campos/validarCampos --nospec
+
+- comando para criar component
+Primeiro tem que criar o modulo
+ng g m shared/components/campos --nospec
+
+ng g c shared/components/campos/input-text --nospec
+
